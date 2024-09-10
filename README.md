@@ -40,7 +40,7 @@
 > Note: Get RSS Feeds From Previous Sources List & Feedspot
 
 ### Directory Structure
-
+```
 ├── ConsolidatedRSS-RawFeedsList.txt
 ├── CoreFunction
 │   ├── DoubleEnhancedRSS.py
@@ -149,3 +149,4 @@
 ├── SamplePro-1.py
 ├── SamplePro-2.py
 └── SamplePro-3.py
+```
