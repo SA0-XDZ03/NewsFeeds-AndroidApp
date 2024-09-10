@@ -36,3 +36,5 @@
 - [ ] Build App Website - Integrated to Beyond Beacon Corporation Website (Products & Services)
 - [ ] Google AdSense
 - [ ] Affiliations & Other Marketing-Financial Models Implementations
+
+> Note: Get RSS Feeds From Previous Sources List & Feedspot
