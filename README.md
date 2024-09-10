@@ -1,0 +1,38 @@
+### Roadmap For NewsApp Android
+- [ ] Gather Resources: Data Sources Status
+	- [ ] Category-based / Country-based / Sector-based RSS Feeds
+		- [ ] Free News RSS Feeds
+		- [ ] Paid News RSS Feeds
+	- [ ] Consolidated List of RSS Feeds with Detailed Information
+	- [ ] Category-based / Country-based / Sector-based APIs
+		- [ ] Social Media APIs
+		- [ ] Open APIs
+		- [ ] 3rd Party APIs
+	- [ ] Consolidated List of APIs with Detailed Information
+	- [ ] Data Sources Gathering Status Report with Above Consolidated Lists
+- [ ] Data Sources Modelling
+	- [ ] Modelling RSS Feeds Data Sources & Types
+	- [ ] Updated Data Modelling Information in the Consolidated RSS Feeds List
+	- [ ] Modelling API Data Sources & Types
+	- [ ] Updated Data Modelling Information in the Consolidated APIs List
+- [ ] Plan Clear Business & Financial Models
+	- [ ] Update the Application Documentation (for Future References & Monetization)
+	- [ ] Planning Financial Models 
+- [ ] Application UI & UX Wireframe
+	- [ ] Building Application UI/UX Based on Business & Financial Models
+	- [ ] Rough Wireframes of Application UI/UX
+- [ ] Developing & Deploying Back-end Engine
+	- [ ] Developing RSS Feed Back-end Engine
+	- [ ] Deploying & Scheduling RSS Feed Back-end Engine
+	- [ ] Developing API Services Back-end Engine
+	- [ ] Deploying & Scheduling API Services Back-end Engine
+	- [ ] Testing Information Output
+- [ ] Develop Front-end
+	- [ ] Identify Technology & Build Front-End
+- [ ] Integrating Back-end with Front-end
+- [ ] Unit Testing Application
+- [ ] Automated Basic Security Testing
+- [ ] Launch v0.1 on PlayStore
+- [ ] Build App Website - Integrated to Beyond Beacon Corporation Website (Products & Services)
+- [ ] Google AdSense
+- [ ] Affiliations & Other Marketing-Financial Models Implementations
