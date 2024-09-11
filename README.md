@@ -150,7 +150,11 @@
 ├── SamplePro-2.py
 └── SamplePro-3.py
 ```
-### Execution Structure
+
+---
+
+```
+### Main Application Program Outline
 **1.1 Create directories for RSS Feeds**
        ++ Category
        ++ Sector
@@ -211,3 +215,4 @@
      ++ Load and process RSS feeds.
      ++ Handle errors during processing.
      ++ Create and save consolidated JSON files.
+```
