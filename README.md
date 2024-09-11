@@ -150,3 +150,64 @@
 ├── SamplePro-2.py
 └── SamplePro-3.py
 ```
+### Execution Structure
+**1.1 Create directories for RSS Feeds**
+       ++ Category
+       ++ Sector
+       ++ Country
+**1.2 Sub-directories for each Category, Sector, and Country**
+       ++ RSSFeeds-Sources (Contains RSS feed URLs)
+       ++ RSSFeeds-Logs (Logs of feed data)
+       ++ RSSFeeds-Errors (Error logs for feed access issues)
+       ++ RSSFeeds-JSON (Consolidated feed data in JSON format)
+**2.1 Store RSS Feed Lists**
+       ++ Store a list of RSS URLs in each Category/Sector/Country directory.  
+       ++ Files are named RSSFeedsList.txt.
+**2.2 Load RSS Feed List**
+       ++ Read RSS URLs from the RSSFeedsList.txt.
+**3.1 RSS Feed Accessibility Check**
+       ++ For each RSS feed URL, check if it's accessible.
+       ++ If accessible, proceed with parsing; else log an error.
+**3.2 Fetch & Parse RSS Feeds**
+       ++ fetch and parse the RSS feed data.
+              +++ Title
+              +++ Link
+              +++ Description
+              +++ Published Date
+              +++ Save parsed data into log files.
+**3.3 Log Feed Data**
+       ++ For each feed entry, create log files:
+       ++ Log format:
+   	      +++ Title
+              +++ Link
+              +++ Description
+              +++ Published Date
+**4.1 RSS Feed Access Errors**
+       ++ If an RSS feed is inaccessible:
+       ++ Log the error in RSSFeeds-Errors/Error_FEED1.txt.
+       ++ Include the RSS URL and error description.
+**4.2 Missing Tags or Data Errors**
+       ++ Handle and log errors like missing tags (title, description, etc.).
+       ++ Store the errors in error logs.
+**5.1 Consolidated JSON Creation**
+       ++ Collect all parsed feed data.
+       ++ Store it in a consolidated JSON file for each category/sector/country.
+       ++ List of articles with:
+              +++ Title
+              +++ Link
+              +++ Description
+              +++ Published Date
+**5.2 Print Consolidated Feed Data**
+      ++ After processing, print all feed details to the terminal.
+      ++ Displays a summary of each article (Title, Link, Description, Date).
+**6.1 Program Execution**
+      ++ User can input:
+             +++ Sector
+             +++ Category
+             +++ Country
+**6.2 Program Steps**
+     ++ Create directory structure.
+     ++ Save RSS feed lists.
+     ++ Load and process RSS feeds.
+     ++ Handle errors during processing.
+     ++ Create and save consolidated JSON files.
